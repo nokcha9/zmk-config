@@ -1,8 +1,64 @@
-layout: {qmk_keyboard: lily58_rotated}
+layout: {zmk_keyboard: lily58}
 layers:
-  Bas: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', ↹, Q, W, E, R, T, Y, U, I, O, P, '-', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K,
-    L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, '[', ']', N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-command$$',
-    Low, ␣, ⏎, Rai, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-command$$']
+  Bas:
+  - Esc
+  - {t: '1', h: F1}
+  - {t: '2', h: F2}
+  - {t: '3', h: F3}
+  - {t: '4', h: F4}
+  - {t: '5', h: F5}
+  - {t: '6', h: F6}
+  - {t: '7', h: F7}
+  - {t: '8', h: F8}
+  - {t: '9', h: F9}
+  - {t: '0', h: F10}
+  - BACKSPACE
+  - ↹
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '-'
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - $$mdi:apple-keyboard-control$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - DELETE
+  - RIGHT CONTROL
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - LEFT GUI
+  - Low
+  - LEFT ALT
+  - ␣
+  - ⏎
+  - Low
+  - Rai
+  - LANG HANGEUL
   Low:
   - BT CLR
   - BT 1
@@ -55,8 +111,8 @@ layers:
   - '}'
   - '|'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -118,6 +174,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
