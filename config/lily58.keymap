@@ -145,7 +145,7 @@
         M1: M1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp AT_SIGN &kp Y &kp P &kp E>;
+            bindings = <&kp AT_SIGN &kp Y &kp P &kp E &kp LS(T)>;
             label = "M1";
         };
 
