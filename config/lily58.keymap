@@ -145,14 +145,14 @@
         M1: M1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp T &kp Y &kp P &kp E>;
+            bindings = <&kp AT_SIGN &kp Y &kp P &kp E>;
             label = "M1";
         };
 
         M2: M2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp T &kp Y &kp P &kp E &kp N2>;
+            bindings = <&kp AT_SIGN &kp P &kp E &kp N2>;
             label = "M2";
         };
     };
