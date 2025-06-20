@@ -35,7 +35,7 @@ layers:
   - J
   - K
   - L
-  - ;
+  - '&TD1'
   - ''''
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -49,7 +49,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - '&TD2'
   - $$mdi:apple-keyboard-shift$$
   - LEFT GUI
   - Low
@@ -60,56 +60,56 @@ layers:
   - Rai
   - LANG HANGEUL
   Low:
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
+  - KP NUMLOCK
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - INSERT
+  - Home
+  - PAGE UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - CAPSLOCK
+  - '4'
+  - '5'
+  - '6'
+  - J
+  - H
+  - {t: ▽, type: trans}
+  - DELETE
+  - End
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - '`'
-  - '!'
-  - '@'
-  - '#'
-  - $
+  - '1'
+  - '2'
+  - '3'
+  - '0'
   - '%'
-  - ^
-  - AMPS
-  - KP MULTIPLY
-  - (
-  - )
-  - '~'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - '-'
-  - KP PLUS
-  - '{'
-  - '}'
-  - '|'
+  - +
+  - '*'
+  - N
+  - '&M3'
+  - '`'
+  - {t: ▽, type: trans}
+  - ←
+  - ↓
+  - →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -131,17 +131,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -150,10 +150,10 @@ layers:
   - F5
   - F6
   - {t: ▽, type: trans}
-  - ←
-  - ↓
-  - ↑
-  - →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F7
   - F8
@@ -163,12 +163,12 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP PLUS
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
