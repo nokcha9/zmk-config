@@ -141,6 +141,20 @@
             bindings = <&kp LC(BACKSPACE)>;
             label = "M3";
         };
+
+        M1: M1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp Y &kp P &kp E>;
+            label = "M1";
+        };
+
+        M2: M2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp Y &kp P &kp E &kp N2>;
+            label = "M2";
+        };
     };
 
     keymap {
@@ -195,8 +209,8 @@
             display-name = "Rai";
             bindings = <
 &trans  &trans  &trans  &trans   &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans   &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans   &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &M1
+&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans  &trans  &trans  &trans  &trans  &M2
 &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans   &trans   &trans   &trans    &trans  &trans  &trans  &trans
             >;
